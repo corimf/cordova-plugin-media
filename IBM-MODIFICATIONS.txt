@@ -1,0 +1,6 @@
+Cordova iOS 64-bit support
+- Cordova RTC work item number: 55592
+- Worklight RTC work item number: 55901
+- Apache Cordova Jira issue: CB-6212
+- Markmail or Google Group reference: none
+- Fix plugin warnings compiled under arm64 64-bit

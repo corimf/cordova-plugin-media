@@ -1,0 +1,10 @@
+Add Android M permission support to Cordova
+- Cordova RTC work item number: 106363
+- Apache Cordova Jira issue: 
+- Markmail or Google Group reference:
+- Product PMR: APAR PI61332 (RTC 106363)
+- Cherry-pick: c4547c94c5850c619b0936551ec1180f4465a95b, 8dd328d719df93e57c46727f4fe6cd753de2045c,
+f0a82b18958fd5291239854ac56ff2c3ff0873d1, 597e998d1ebe75bfefa933a56d42006f1a309a8c
+- Full description: The Android M permission model will request for permissions at 
+run time. To add this support, Cordova plugins will need to add permission request functions 
+in Android API 23 to handle the run time permissions.
